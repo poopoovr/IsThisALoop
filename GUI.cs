@@ -13,7 +13,7 @@ namespace IsThisALoop
         {
             GUI.backgroundColor = Color.black;
             GUI.contentColor = Color.white;
-            windowRect = GUI.Window(8844, windowRect, DrawGUI, "");
+            windowRect = GUI.Window(8844, windowRect, DrawGUI, "Is This A Loop?");
         }
 
         private void DrawGUI(int windowID)
